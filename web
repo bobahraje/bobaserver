@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja Webová Stránka</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Moj Web</div>
+            <ul class="nav-links">
+                <li><a href="#home">Domov</a></li>
+                <li><a href="#about">O Mne</a></li>
+                <li><a href="#services">Služby</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <h1>Vitajte na mojej webovej stránke!</h1>
+            <p>Tu je domov mojich projektov a nápadov</p>
+            <button class="btn">Začať</button>
+        </section>
+
+        <section id="about" class="about">
+            <h2>O Mne</h2>
+            <p>Sú vývojár a tvorca webových stránok so zápasom pre kvalitný kód a dobrý dizajn.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Moje Služby</h2>
+            <div class="service-grid">
+                <div class="service-card">
+                    <h3>Web Dizajn</h3>
+                    <p>Tvorba krásnych a funkčných webových stránok</p>
+                </div>
+                <div class="service-card">
+                    <h3>Vývoj</h3>
+                    <p>Moderné webové aplikácie a riešenia</p>
+                </div>
+                <div class="service-card">
+                    <h3>Konzultácia</h3>
+                    <p>Pomoc s vašimi projektmi a rozhodnutiami</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Kontakt</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Vaše meno" required>
+                <input type="email" placeholder="Váš email" required>
+                <textarea placeholder="Vaša správa" rows="5" required></textarea>
+                <button type="submit" class="btn">Poslať</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Moja Webová Stránka. Všetky práva vyhradené.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
